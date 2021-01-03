@@ -2,12 +2,12 @@ module.exports = {
   title: 'My Docu',
   tagline: 'A place to shared knowledge',
   url: 'https://damianrebolo.github.io',
-  baseUrl: '/',
+  baseUrl: '/my-docu/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'damianrebolo', // Usually your GitHub org/user name.
-  projectName: 'damianrebolo.github.io', // Usually your repo name.
+  projectName: 'my-docu', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'My Docu',
