@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'My Docu',
-  tagline: 'A place to shared knowledge',
+  title: 'Damian Rebolo',
+  tagline: 'Software Engineer at Ohpen',
   url: 'https://damianrebolo.github.io',
   baseUrl: '/my-docu/',
   onBrokenLinks: 'throw',
@@ -10,10 +10,10 @@ module.exports = {
   projectName: 'my-docu', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Docu',
+      title: '',
       logo: {
-        alt: 'My Docu Logo',
-        src: 'img/logo.svg',
+        alt: '',
+        src: 'img/logo-48.png',
       },
       items: [
         {
@@ -24,7 +24,7 @@ module.exports = {
         },
         // {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/damianrebolo/my-docu',
           label: 'GitHub',
           position: 'right',
         },
@@ -33,7 +33,7 @@ module.exports = {
     footer: {
       style: 'dark',
       links: [],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()}, Inc. Built with Docusaurus.`,
     },
   },
   presets: [
@@ -44,7 +44,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/damianrebolo/my-docu/edit/master/',
         },
         // blog: {
         //   showReadingTime: true,
