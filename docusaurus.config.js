@@ -33,7 +33,7 @@ module.exports = {
     footer: {
       style: 'dark',
       links: [],
-      copyright: `Copyright © ${new Date().getFullYear()}, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()}. Built with Docusaurus.`,
     },
   },
   presets: [
