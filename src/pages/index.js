@@ -59,13 +59,13 @@ function Home() {
   const {siteConfig = {}} = context;
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
-          <div className={styles.buttons}>
+          <h2 className="hero__workat">{siteConfig.tagline}</h2>
+          <p className="hero__subtitle">I’m Software Engineer who has worked in a wide range of projects, for both start ups and well established companies. I specialized in full stack web developer, and have used several web technologies during my career. At the moment I’m focusing on front-end development building real time single page applications.</p>
+          {/* <div className={styles.buttons}>
             <Link
               className={clsx(
                 'button button--outline button--secondary button--lg',
@@ -74,11 +74,11 @@ function Home() {
               to={useBaseUrl('docs/')}>
               Get Started
             </Link>
-          </div>
+          </div> */}
         </div>
       </header>
       <main>
-        {features && features.length > 0 && (
+        {/* {features && features.length > 0 && (
           <section className={styles.features}>
             <div className="container">
               <div className="row">
@@ -88,7 +88,7 @@ function Home() {
               </div>
             </div>
           </section>
-        )}
+        )} */}
       </main>
     </Layout>
   );
