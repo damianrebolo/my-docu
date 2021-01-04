@@ -5,7 +5,7 @@ sidebar_label: Secure Auth
 slug: /secure-auth
 ---
 
-Let's explore the authentication strategies you can implement for different Next.js deployment models.
+Let's explore the authentication strategies you can implement for different deployment models.
 
 ## Static site approach
 
