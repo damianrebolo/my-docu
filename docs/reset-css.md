@@ -1,7 +1,7 @@
 ---
 id: reset-css
 title: Reset CSS
-sidebar_label: Reset
+sidebar_label: Reset CSS
 slug: /reset-css
 ---
 
