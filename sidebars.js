@@ -1,9 +1,11 @@
 module.exports = {
   someSidebar: {
-    CSS: ['reset-css'],
-    Authentication: ['secure-auth'],
+    General: ['doc1', 'reset-css', 'secure-auth'],
+    'Programming principles': ['ioc']
+    // CSS: ['reset-css'],
+    // Authentication: ['secure-auth']
     // JavaScript: ['secure-auth'],
     // AWS: ['secure-auth'],
-    Features: ['doc1', 'mdx']
+    // Features: ['doc1', 'mdx']
   }
 };
