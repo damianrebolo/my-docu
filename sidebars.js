@@ -3,6 +3,7 @@ module.exports = {
     General: [
       'doc1',
       'reset-css',
+      'block-element-modifier',
       'secure-auth',
       'ioc',
       'destructuring-assignment',
