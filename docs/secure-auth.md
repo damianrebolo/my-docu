@@ -40,4 +40,4 @@ Once the user has a session, they can access pages or call API endpoints that re
 
 ## Resources
 
-[NextJs Auth0](https://auth0.com/blog/ultimate-guide-nextjs-authentication-auth0)
+https://auth0.com/blog/ultimate-guide-nextjs-authentication-auth0

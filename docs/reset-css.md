@@ -71,6 +71,6 @@ This is a starting point, not a self-contained black box of no-touchiness.
 
 ## Resources
 
-[Box Sizing](https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/)
+https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice
 
-[Meyer Reset](https://meyerweb.com/eric/tools/css/reset/)
+https://meyerweb.com/eric/tools/css/reset
