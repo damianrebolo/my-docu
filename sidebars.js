@@ -7,7 +7,8 @@ module.exports = {
       'secure-auth',
       'ioc',
       'destructuring-assignment',
-      'spread-syntax'
+      'spread-syntax',
+      'introduction-to-events'
     ]
     // 'Programming principles': ['ioc']
     // CSS: ['reset-css'],
