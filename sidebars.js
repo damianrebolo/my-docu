@@ -4,6 +4,7 @@ module.exports = {
       'doc1',
       'reset-css',
       'block-element-modifier',
+      'font-size-units',
       'secure-auth',
       'ioc',
       'destructuring-assignment',
