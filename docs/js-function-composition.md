@@ -104,3 +104,5 @@ That may sound weird at first, but as you get practice with it, you’ll find th
 ## Resources
 
 https://medium.com/javascript-scene/master-the-javascript-interview-what-is-function-composition-20dfb109a1a0
+
+https://github.com/lodash/lodash/wiki/FP-Guide
