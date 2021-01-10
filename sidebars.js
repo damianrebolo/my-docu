@@ -9,6 +9,7 @@ module.exports = {
       'ioc',
       'js-closure',
       'js-func-composition',
+      'js-func-programming',
       'destructuring-assignment',
       'spread-syntax',
       'introduction-to-events'
