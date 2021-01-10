@@ -1,7 +1,7 @@
 ---
 id: js-func-composition
 title: What is Function Composition?
-sidebar_label: What is Function Composition?
+sidebar_label: Function Composition
 slug: /function-composition
 ---
 
