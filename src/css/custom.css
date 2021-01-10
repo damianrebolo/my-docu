@@ -24,6 +24,12 @@
   padding: 0 var(--ifm-pre-padding);
 }
 
+/* custom from here */
+.hero--primary {
+  --ifm-hero-background-color: unset;
+  --ifm-hero-text-color: unset;
+}
+
 h1.hero__title {
   margin: 0;
 }
