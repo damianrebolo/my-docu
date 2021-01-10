@@ -9,7 +9,9 @@ module.exports = {
       'ioc',
       'destructuring-assignment',
       'spread-syntax',
-      'introduction-to-events'
+      'introduction-to-events',
+      'js-closure',
+      'js-func-composition'
     ]
     // 'Programming principles': ['ioc']
     // CSS: ['reset-css'],
