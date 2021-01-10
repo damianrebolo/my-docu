@@ -7,11 +7,11 @@ module.exports = {
       'font-size-units',
       'secure-auth',
       'ioc',
+      'js-closure',
+      'js-func-composition',
       'destructuring-assignment',
       'spread-syntax',
-      'introduction-to-events',
-      'js-closure',
-      'js-func-composition'
+      'introduction-to-events'
     ]
     // 'Programming principles': ['ioc']
     // CSS: ['reset-css'],
