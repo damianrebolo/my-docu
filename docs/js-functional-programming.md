@@ -109,3 +109,5 @@ A **higher order function** is any function which takes a function as an argumen
 ## Resources
 
 https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-closure-b2f0d2152b36
+
+https://www.youtube.com/watch?v=e-5obm1G_FY&t=943s
