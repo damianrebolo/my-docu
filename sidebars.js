@@ -1,25 +1,20 @@
 module.exports = {
   someSidebar: {
-    General: [
-      'doc1',
-      'reset-css',
-      'block-element-modifier',
-      'font-size-units',
-      'secure-auth',
-      'ioc',
+    Features: ['doc1', 'secure-auth', 'ioc'],
+    JavaScript: [
       'js-closure',
       'js-func-composition',
       'js-func-programming',
       'js-comp-vs-inheitance',
-      'destructuring-assignment',
-      'spread-syntax',
-      'introduction-to-events'
-    ]
+      'js-destructuring-assignment',
+      'js-spread-syntax',
+      'js-introduction-to-events'
+    ],
+    CSS: ['css-reset', 'css-bem', 'css-font-size-units']
     // 'Programming principles': ['ioc']
     // CSS: ['reset-css'],
     // Authentication: ['secure-auth']
     // JavaScript: ['secure-auth'],
     // AWS: ['secure-auth'],
-    // Features: ['doc1', 'mdx']
   }
 };

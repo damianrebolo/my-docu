@@ -1,5 +1,5 @@
 ---
-id: spread-syntax
+id: js-spread-syntax
 title: Spread Syntax
 sidebar_label: Spread Syntax
 slug: /spread-syntax

@@ -1,5 +1,5 @@
 ---
-id: destructuring-assignment
+id: js-destructuring-assignment
 title: Destructuring assignment
 sidebar_label: Destructuring assignment
 slug: /destructuring-assignment

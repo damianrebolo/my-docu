@@ -1,5 +1,5 @@
 ---
-id: introduction-to-events
+id: js-introduction-to-events
 title: Introduction to events
 sidebar_label: Introduction to events
 slug: /introduction-to-events

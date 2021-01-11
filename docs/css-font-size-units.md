@@ -1,5 +1,5 @@
 ---
-id: font-size-units
+id: css-font-size-units
 title: CSS font-size units
 sidebar_label: CSS font-size units
 slug: /font-size-units

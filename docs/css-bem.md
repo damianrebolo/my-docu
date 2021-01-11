@@ -1,5 +1,5 @@
 ---
-id: block-element-modifier
+id: css-bem
 title: Block Element Modifier
 sidebar_label: Block Element Modifier
 slug: /block-element-modifier
