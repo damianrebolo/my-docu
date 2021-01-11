@@ -10,6 +10,7 @@ module.exports = {
       'js-closure',
       'js-func-composition',
       'js-func-programming',
+      'js-comp-vs-inheitance',
       'destructuring-assignment',
       'spread-syntax',
       'introduction-to-events'
