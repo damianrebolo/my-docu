@@ -8,7 +8,8 @@ module.exports = {
       'js-comp-vs-inheitance',
       'js-destructuring-assignment',
       'js-spread-syntax',
-      'js-introduction-to-events'
+      'js-introduction-to-events',
+      'js-async-await'
     ],
     CSS: ['css-reset', 'css-bem', 'css-font-size-units']
     // 'Programming principles': ['ioc']
