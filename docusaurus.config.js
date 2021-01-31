@@ -13,28 +13,28 @@ module.exports = {
       title: '',
       logo: {
         alt: '',
-        src: 'img/logo-48.png',
+        src: 'img/logo-48.png'
       },
       items: [
         {
           to: 'docs/',
           activeBasePath: 'docs',
           label: 'Docs',
-          position: 'right',
+          position: 'right'
         },
         // {to: 'blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/damianrebolo/my-docu',
           label: 'GitHub',
-          position: 'right',
-        },
-      ],
+          position: 'right'
+        }
+      ]
     },
     footer: {
       style: 'dark',
       links: [],
-      copyright: `Copyright © ${new Date().getFullYear()}. Built with Docusaurus.`,
-    },
+      copyright: `Copyright © ${new Date().getFullYear()}. Built with Docusaurus.`
+    }
   },
   presets: [
     [
@@ -43,8 +43,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/damianrebolo/my-docu/edit/master/',
+          editUrl: 'https://github.com/damianrebolo/my-docu/edit/master/'
         },
         // blog: {
         //   showReadingTime: true,
@@ -53,9 +52,9 @@ module.exports = {
         //     'https://github.com/facebook/docusaurus/edit/master/website/blog/',
         // },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
-        },
-      },
-    ],
-  ],
+          customCss: require.resolve('./src/css/custom.css')
+        }
+      }
+    ]
+  ]
 };

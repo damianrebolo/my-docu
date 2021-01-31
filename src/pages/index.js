@@ -18,6 +18,16 @@ const features = [
     )
   },
   {
+    title: 'Easy to Use',
+    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    description: (
+      <>
+        Docusaurus was designed from the ground up to be easily installed and used to get your
+        website up and running quickly.
+      </>
+    )
+  },
+  {
     title: 'Focus on What Matters',
     imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
@@ -62,7 +72,7 @@ function Home() {
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
-          <h2 className="hero__workat">{siteConfig.tagline}</h2>
+          {/* <h2 className="hero__workat">{siteConfig.tagline}</h2> */}
           <p className="hero__subtitle">
             I’m Software Engineer who has worked in a wide range of projects, for both start ups and
             well established companies. I specialized in full stack web developer, and have used
@@ -75,7 +85,7 @@ function Home() {
                 'button button--outline button--secondary button--lg',
                 styles.getStarted
               )}
-              to={useBaseUrl('docs/')}
+              to={useBaseUrl('docs/ioc')}
             >
               Get Started
             </Link>

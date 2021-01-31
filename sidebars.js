@@ -1,11 +1,12 @@
 module.exports = {
   someSidebar: {
-    Features: ['doc1', 'secure-auth', 'ioc'],
+    Features: ['ioc', 'secure-auth'],
     JavaScript: [
-      'js-closure',
-      'js-func-composition',
       'js-func-programming',
+      'js-func-composition',
       'js-comp-vs-inheitance',
+      'js-objects-in-js',
+      'js-closure',
       'js-destructuring-assignment',
       'js-spread-syntax',
       'js-introduction-to-events',

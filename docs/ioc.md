@@ -2,7 +2,7 @@
 id: ioc
 title: Inversion of Control
 sidebar_label: Inversion of control
-slug: /ioc-di
+slug: /ioc
 ---
 
 ## A simple principle that can drastically improve your reusable code
