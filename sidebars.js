@@ -10,7 +10,8 @@ module.exports = {
       'js-destructuring-assignment',
       'js-spread-syntax',
       'js-introduction-to-events',
-      'js-async-await'
+      'js-async-await',
+      'js-variables'
     ],
     CSS: ['css-reset', 'css-bem', 'css-font-size-units']
     // 'Programming principles': ['ioc']
