@@ -2,30 +2,16 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://damianrebolo.github.io/blog</id>
     <title>Damian Rebolo Blog</title>
-    <updated>2019-05-30T00:00:00.000Z</updated>
+    <updated>2021-02-08T07:51:39.936Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://damianrebolo.github.io/blog"/>
     <subtitle>Damian Rebolo Blog</subtitle>
     <icon>https://damianrebolo.github.io/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Welcome]]></title>
-        <id>welcome</id>
-        <link href="https://damianrebolo.github.io/my-docu/blog/welcome"/>
-        <updated>2019-05-30T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Blog features are powered by the blog plugin. Simply add files to the blog directory. It supports tags as well!]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hello]]></title>
-        <id>hello-world</id>
-        <link href="https://damianrebolo.github.io/my-docu/blog/hello-world"/>
-        <updated>2019-05-29T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Welcome to this blog. This blog is created with Docusaurus 2 alpha.]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hola]]></title>
-        <id>hola</id>
-        <link href="https://damianrebolo.github.io/my-docu/blog/hola"/>
-        <updated>2019-05-28T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet]]></summary>
+        <title type="html"><![CDATA[Managing npm packages]]></title>
+        <id>guide-to-managing-npm-packages</id>
+        <link href="https://damianrebolo.github.io/my-docu/blog/guide-to-managing-npm-packages"/>
+        <updated>2021-02-08T07:51:39.936Z</updated>
+        <summary type="html"><![CDATA[Learning the npm commands of how to install or upgrade packages isn’t hard. What I did find difficult for a long time were the best practices behind it.]]></summary>
     </entry>
 </feed>

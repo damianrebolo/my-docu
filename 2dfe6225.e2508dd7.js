@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[12],{80:function(n){n.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Managing npm packages","permalink":"/my-docu/blog/guide-to-managing-npm-packages"}]}')}}]);

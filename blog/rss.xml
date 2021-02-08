@@ -4,29 +4,15 @@
         <title>Damian Rebolo Blog</title>
         <link>https://damianrebolo.github.io/blog</link>
         <description>Damian Rebolo Blog</description>
-        <lastBuildDate>Thu, 30 May 2019 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 08 Feb 2021 07:51:39 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[Welcome]]></title>
-            <link>https://damianrebolo.github.io/my-docu/blog/welcome</link>
-            <guid>welcome</guid>
-            <pubDate>Thu, 30 May 2019 00:00:00 GMT</pubDate>
-            <description><![CDATA[Blog features are powered by the blog plugin. Simply add files to the blog directory. It supports tags as well!]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Hello]]></title>
-            <link>https://damianrebolo.github.io/my-docu/blog/hello-world</link>
-            <guid>hello-world</guid>
-            <pubDate>Wed, 29 May 2019 00:00:00 GMT</pubDate>
-            <description><![CDATA[Welcome to this blog. This blog is created with Docusaurus 2 alpha.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Hola]]></title>
-            <link>https://damianrebolo.github.io/my-docu/blog/hola</link>
-            <guid>hola</guid>
-            <pubDate>Tue, 28 May 2019 00:00:00 GMT</pubDate>
-            <description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet]]></description>
+            <title><![CDATA[Managing npm packages]]></title>
+            <link>https://damianrebolo.github.io/my-docu/blog/guide-to-managing-npm-packages</link>
+            <guid>guide-to-managing-npm-packages</guid>
+            <pubDate>Mon, 08 Feb 2021 07:51:39 GMT</pubDate>
+            <description><![CDATA[Learning the npm commands of how to install or upgrade packages isn’t hard. What I did find difficult for a long time were the best practices behind it.]]></description>
         </item>
     </channel>
 </rss>
