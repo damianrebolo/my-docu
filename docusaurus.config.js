@@ -17,12 +17,12 @@ module.exports = {
       },
       items: [
         {
-          to: 'docs/',
+          to: 'docs/ioc',
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'right'
         },
-        // {to: 'blog', label: 'Blog', position: 'left'},
+        { to: 'blog', label: 'Blog', position: 'right' },
         {
           href: 'https://github.com/damianrebolo/my-docu',
           label: 'GitHub',
@@ -45,12 +45,11 @@ module.exports = {
           // Please change this to your repo.
           editUrl: 'https://github.com/damianrebolo/my-docu/edit/master/'
         },
-        // blog: {
-        //   showReadingTime: true,
-        //   // Please change this to your repo.
-        //   editUrl:
-        //     'https://github.com/facebook/docusaurus/edit/master/website/blog/',
-        // },
+        blog: {
+          showReadingTime: true,
+          // Please change this to your repo.
+          editUrl: 'https://github.com/damianrebolo/my-docu/edit/master/'
+        },
         theme: {
           customCss: require.resolve('./src/css/custom.css')
         }
