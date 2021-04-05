@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://damianrebolo.github.io/blog</id>
     <title>Damian Rebolo Blog</title>
-    <updated>2021-02-08T07:51:39.936Z</updated>
+    <updated>2021-04-05T10:54:53.417Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://damianrebolo.github.io/blog"/>
     <subtitle>Damian Rebolo Blog</subtitle>
@@ -11,7 +11,7 @@
         <title type="html"><![CDATA[Managing npm packages]]></title>
         <id>guide-to-managing-npm-packages</id>
         <link href="https://damianrebolo.github.io/my-docu/blog/guide-to-managing-npm-packages"/>
-        <updated>2021-02-08T07:51:39.936Z</updated>
+        <updated>2021-04-05T10:54:53.417Z</updated>
         <summary type="html"><![CDATA[Learning the npm commands of how to install or upgrade packages isn’t hard. What I did find difficult for a long time were the best practices behind it.]]></summary>
     </entry>
 </feed>

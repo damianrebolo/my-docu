@@ -4,14 +4,14 @@
         <title>Damian Rebolo Blog</title>
         <link>https://damianrebolo.github.io/blog</link>
         <description>Damian Rebolo Blog</description>
-        <lastBuildDate>Mon, 08 Feb 2021 07:51:39 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 05 Apr 2021 10:54:53 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
             <title><![CDATA[Managing npm packages]]></title>
             <link>https://damianrebolo.github.io/my-docu/blog/guide-to-managing-npm-packages</link>
             <guid>guide-to-managing-npm-packages</guid>
-            <pubDate>Mon, 08 Feb 2021 07:51:39 GMT</pubDate>
+            <pubDate>Mon, 05 Apr 2021 10:54:53 GMT</pubDate>
             <description><![CDATA[Learning the npm commands of how to install or upgrade packages isn’t hard. What I did find difficult for a long time were the best practices behind it.]]></description>
         </item>
     </channel>
