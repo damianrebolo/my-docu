@@ -1,6 +1,6 @@
 module.exports = {
   someSidebar: {
-    Features: ['ioc', 'secure-auth'],
+    Principles: ['ioc'],
     JavaScript: [
       'js-func-programming',
       'js-func-composition',
@@ -13,7 +13,9 @@ module.exports = {
       'js-async-await',
       'js-variables'
     ],
-    CSS: ['css-reset', 'css-bem', 'css-font-size-units']
+    Security: ['secure-auth']
+    // Web3: ['w3-blockchain']
+    // CSS: ['css-reset', 'css-bem', 'css-font-size-units']
     // 'Programming principles': ['ioc']
     // CSS: ['reset-css'],
     // Authentication: ['secure-auth']
