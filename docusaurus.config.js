@@ -17,7 +17,7 @@ module.exports = {
       },
       items: [
         {
-          to: 'docs/w3-basics',
+          to: 'docs/ioc',
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'right'
