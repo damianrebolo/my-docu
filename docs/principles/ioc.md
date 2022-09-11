@@ -5,13 +5,16 @@ sidebar_label: Inversion of control
 slug: /ioc
 ---
 
-## A simple principle that can drastically improve your reusable code
+:::tip A simple principle that can drastically improve your reusable code.
+:::
+
+## What is IoC?
 
 IoC refers to transferring the control of objects (components) and their dependencies from the main program to a container or framework. Is used to increase modularity of the program and make it extensible, and has applications in object-oriented programming and other programming paradigms.
 
 There's also patterns that you may be familiar with that are basically a form of inversion of control. My favorite pattern for this is _"Compound Components"_.
 
-### Compound Components
+## Compound Components
 
 Let's say you want to build a _Menu_ component that has a button for opening the menu and a list of menu items to display when it's clicked. Then when an item is selected, it will perform some action. A common approach to this kind of component is to create props for each of these things:
 
