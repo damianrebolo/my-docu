@@ -20,13 +20,13 @@ const sidebars = {
   mySidebar: [
     {
       type: "category",
-      label: "Principles",
-      items: ["principles/ioc"],
+      label: "Security",
+      items: ["security/se-http-headers"],
     },
     {
       type: "category",
-      label: "Web3",
-      items: ["web3/w3-history"],
+      label: "Principles",
+      items: ["principles/ioc"],
     },
     {
       type: "category",
@@ -40,6 +40,11 @@ const sidebars = {
         "javascript/js-objects-in-js",
         "javascript/js-async-await",
       ],
+    },
+    {
+      type: "category",
+      label: "Web3",
+      items: ["web3/w3-history"],
     },
   ],
 };
