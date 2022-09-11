@@ -9,7 +9,7 @@ const config = {
   title: "Damian Rebolo",
   tagline: "Front-End Engineer",
   url: "https://damianrebolo.github.io",
-  baseUrl: "/",
+  baseUrl: "/my-docu/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
