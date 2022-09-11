@@ -29,6 +29,7 @@ const sidebars = {
       items: [
         "javascript/js-variables",
         "javascript/js-spread-syntax",
+        "javascript/js-destructuring-assignment",
         "javascript/js-introduction-to-events",
         "javascript/js-closure",
         "javascript/js-objects-in-js",
