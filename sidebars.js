@@ -20,6 +20,11 @@ const sidebars = {
   mySidebar: [
     {
       type: "category",
+      label: "Principles",
+      items: ["principles/ioc"],
+    },
+    {
+      type: "category",
       label: "Web3",
       items: ["web3/w3-history"],
     },
