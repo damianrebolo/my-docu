@@ -65,7 +65,7 @@ const config = {
         items: [
           {
             type: "doc",
-            docId: "intro",
+            docId: "web3/w3-history",
             position: "left",
             label: "Docs",
           },
@@ -85,7 +85,7 @@ const config = {
             items: [
               {
                 label: "Docs",
-                to: "/docs/intro",
+                to: "/docs/w3-history",
               },
             ],
           },

@@ -1,8 +1,8 @@
 ---
-id: w3-basics
-title: Web 3 - Basics
-sidebar_label: Basics
-slug: /w3-basics
+id: w3-history
+title: Web 3 - History
+sidebar_label: History
+slug: /w3-history
 ---
 
 ## Introduction to Web3
