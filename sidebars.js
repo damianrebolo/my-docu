@@ -46,6 +46,19 @@ const sidebars = {
       label: "Web3",
       items: ["web3/w3-history"],
     },
+    {
+      type: "category",
+      label: "React Testing",
+      items: [
+        "react-testing/rt-basic-component",
+        "react-testing/rt-multiple-elements",
+        "react-testing/rt-event-handler",
+        "react-testing/rt-state-hook",
+        "react-testing/rt-async-hook",
+        "react-testing/rt-custom-hook",
+        "react-testing/rt-async-custom-hook",
+      ],
+    },
   ],
 };
 
