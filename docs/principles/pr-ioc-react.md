@@ -1,8 +1,8 @@
 ---
-id: ioc
+id: pr-ioc-react
 title: Inversion of Control
 sidebar_label: Inversion of control
-slug: /ioc
+slug: /ioc-react
 ---
 
 :::tip A simple principle that can drastically improve your reusable code.

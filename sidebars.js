@@ -26,7 +26,7 @@ const sidebars = {
     {
       type: "category",
       label: "Principles",
-      items: ["principles/ioc"],
+      items: ["principles/pr-ioc-react", "principles/pr-solid"],
     },
     {
       type: "category",
