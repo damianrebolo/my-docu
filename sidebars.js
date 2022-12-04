@@ -39,6 +39,7 @@ const sidebars = {
         "javascript/js-closure",
         "javascript/js-objects-in-js",
         "javascript/js-async-await",
+        "javascript/js-sync-vs-async",
       ],
     },
     {
