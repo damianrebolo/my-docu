@@ -40,6 +40,7 @@ const sidebars = {
         "javascript/js-objects-in-js",
         "javascript/js-async-await",
         "javascript/js-sync-vs-async",
+        "javascript/js-shallow-vs-deep-copy",
       ],
     },
     {
