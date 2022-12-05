@@ -64,7 +64,11 @@ const sidebars = {
     {
       type: "category",
       label: "Web3",
-      items: ["web3/w3-history"],
+      items: [
+        "web3/w3-history",
+        "web3/w3-cryptographic-hashes",
+        "web3/w3-cryptography",
+      ],
     },
   ],
 };
