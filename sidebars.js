@@ -20,11 +20,6 @@ const sidebars = {
   mySidebar: [
     {
       type: "category",
-      label: "Security",
-      items: ["security/se-http-headers"],
-    },
-    {
-      type: "category",
       label: "Principles",
       items: ["principles/pr-ioc-react", "principles/pr-solid"],
     },
@@ -45,8 +40,8 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "Web3",
-      items: ["web3/w3-history"],
+      label: "React",
+      items: ["react/re-lifecycle", "react/re-state", "react/re-memoization"],
     },
     {
       type: "category",
@@ -60,6 +55,16 @@ const sidebars = {
         "react-testing/rt-custom-hook",
         "react-testing/rt-async-custom-hook",
       ],
+    },
+    {
+      type: "category",
+      label: "Security",
+      items: ["security/se-http-headers"],
+    },
+    {
+      type: "category",
+      label: "Web3",
+      items: ["web3/w3-history"],
     },
   ],
 };
