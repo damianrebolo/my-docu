@@ -68,6 +68,8 @@ const sidebars = {
         "web3/w3-history",
         "web3/w3-cryptographic-hashes",
         "web3/w3-cryptography",
+        "web3/w3-pow-mining",
+        "web3/w3-blockchain-architecture",
       ],
     },
   ],
