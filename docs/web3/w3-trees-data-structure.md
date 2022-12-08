@@ -1,8 +1,8 @@
 ---
-id: w3-trees
-title: Trees
-sidebar_label: Trees
-slug: /w3-trees
+id: w3-trees-data-structure
+title: Tree Data Structure
+sidebar_label: Trees Data Structure
+slug: /w3-trees-data-structure
 ---
 
 ### Binary Search Tree
