@@ -73,6 +73,11 @@ const sidebars = {
         "web3/w3-trees-data-structure",
       ],
     },
+    {
+      type: "category",
+      label: "Solidity",
+      items: ["sol/sol-basics", "sol/sol-advanced"],
+    },
   ],
 };
 
