@@ -75,7 +75,7 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "Solidity",
+      label: "Ethereum",
       items: ["sol/sol-basics", "sol/sol-advanced"],
     },
   ],
