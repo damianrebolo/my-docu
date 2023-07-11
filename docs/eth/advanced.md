@@ -368,3 +368,104 @@ If I were running a node, I could publish a transaction only to my own node and 
 ### So how do we generate random numbers safely in Ethereum?
 
 One idea would be to use an oracle to access a random number function from outside of the Ethereum blockchain.
+
+## Contract security enhancements: Overflows and Underflows
+
+We're going to look at one major security feature you should be aware of when writing smart contracts: Preventing overflows and underflows.
+
+### What's an overflow?
+
+Let's say we have a `uint8`, which can only have 8 bits. That means the largest number we can store is binary `11111111` (or in decimal, 2^8 - 1 = 255).
+
+Take a look at the following code. What is `number` equal to at the end?
+
+```
+uint8 number = 255;
+number++;
+```
+
+In this case, we've caused it to **overflow** — so number is counterintuitively now equal to `0` even though we increased it. (If you add `1` to binary `11111111`, it resets back to `00000000`, like a clock going from `23:59` to `00:00`).
+
+An **underflow** is similar, where if you subtract `1` from a `uint8` that equals `0`, it will now equal `255` (because `uint`s are unsigned, and cannot be negative).
+
+While we're not using `uint8` here, and it seems unlikely that a `uint256` will overflow when incrementing by `1` each time (2^256 is a really big number), it's still good to put protections in our contract so that our DApp never has unexpected behavior in the future.
+
+### Using SafeMath
+
+To prevent this, OpenZeppelin has created a **library** called SafeMath that prevents these issues by default.
+
+A `library` is a special type of contract in Solidity. One of the things it is useful for is to attach functions to native data types.
+
+with the SafeMath library, we'll use the syntax `using SafeMath for uint256`. The SafeMath library has 4 functions — `add`, `sub`, `mul`, and `div`. And now we can access these functions from `uint256` as follows:
+
+```
+using SafeMath for uint256;
+
+uint256 a = 5;
+uint256 b = a.add(3); // 5 + 3 = 8
+uint256 c = a.mul(2); // 5 * 2 = 10
+```
+
+## Libraries
+
+First we have the `library` keyword — libraries are similar to contracts but with a few differences.
+
+```
+library SafeMath {
+
+  function mul(uint256 a, uint256 b) internal pure returns (uint256) {
+    if (a == 0) {
+      return 0;
+    }
+    uint256 c = a * b;
+    assert(c / a == b);
+    return c;
+  }
+
+  function div(uint256 a, uint256 b) internal pure returns (uint256) {
+    // assert(b > 0); // Solidity automatically throws when dividing by 0
+    uint256 c = a / b;
+    // assert(a == b * c + a % b); // There is no case in which this doesn't hold
+    return c;
+  }
+
+  function sub(uint256 a, uint256 b) internal pure returns (uint256) {
+    assert(b <= a);
+    return a - b;
+  }
+
+  function add(uint256 a, uint256 b) internal pure returns (uint256) {
+    uint256 c = a + b;
+    assert(c >= a);
+    return c;
+  }
+}
+```
+
+For our purposes, libraries allow us to use the `using` keyword, which automatically tacks on all of the library's methods to another data type:
+
+```
+using SafeMath for uint;
+// now we can use these methods on any uint
+uint test = 2;
+test = test.mul(3); // test now equals 6
+test = test.add(5); // test now equals 11
+```
+
+Note that the `mul` and `add` functions each require 2 arguments, but when we declare `using SafeMath for uint`, the `uint` we call the function on (`test`) is **automatically passed in as the first argument**.
+
+Let's look at the code behind `add` to see what SafeMath does:
+
+```
+function add(uint256 a, uint256 b) internal pure returns (uint256) {
+  uint256 c = a + b;
+  assert(c >= a);
+  return c;
+}
+```
+
+Basically `add` just adds 2 `uint`s like `+`, but it also contains an `assert` statement to make sure the sum is greater than `a`. This protects us from overflows.
+
+**Assert** is similar to `require`, where it will throw an error if false. The difference between `assert` and `require` is that `require` will refund the user the rest of their gas when a function fails, whereas `assert` will not. So most of the time you want to use `require` in your code; `assert` is typically used when something has gone horribly wrong with the code (like a `uint` overflow).
+
+So, simply put, SafeMath's `add`, `sub`, `mul`, and `div` are functions that do the basic 4 math operations, but throw an error if an overflow or underflow occurs.

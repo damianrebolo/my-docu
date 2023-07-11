@@ -76,7 +76,7 @@ const sidebars = {
     {
       type: "category",
       label: "Ethereum",
-      items: ["sol/sol-basics", "sol/sol-advanced"],
+      items: ["eth/sol-basics", "eth/sol-advanced", "eth/tok-tokens"],
     },
   ],
 };
